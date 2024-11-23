@@ -1,3 +1,5 @@
+/*Crear una web con un script en el que se declare un array que contenga los meses del año (['enero','febrero',...]).
+Utiliza este array y el objeto Date para escribir en la página la fecha actual, por ejemplo: "Estamos a 13 de noviembre de 2024, faltan ?? días fin de año".*/
 const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
 
 //Fecha actual
