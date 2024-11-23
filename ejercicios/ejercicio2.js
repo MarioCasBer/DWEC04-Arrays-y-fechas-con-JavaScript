@@ -9,7 +9,7 @@ informando del error en caso contrario. Escribe en la página la siguiente infor
 
 //Datos almacenados
 let palabras = [];
-const patron = /^[A-ZÁÉÍÓÚ][a-záéíóúA-ZÁÉÍÓÚ]{4,}$/;
+const patron = /^[A-ZÁÉÍÓÚÑ][a-záéíóúñA-ZÁÉÍÓÚÑ]{4,}$/;
 let palabraLarga = "";
 
 //Referencias a elementos
