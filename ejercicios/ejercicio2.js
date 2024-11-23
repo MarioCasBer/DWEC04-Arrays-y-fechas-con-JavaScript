@@ -1,3 +1,12 @@
+/*Crear una web con un script que obtenga una lista de palabras tecleadas por el usuario y los almacene en un array
+hasta que el usuario introduzca la palabra FIN. 
+Validaremos utilizando una expresión regular que las palabras introducidas comiencen por mayúscula y tengan al menos 5 caracteres,
+informando del error en caso contrario. Escribe en la página la siguiente información:
+    a.   La primera palabra introducida por el usuario.
+    b.   La última palabra introducida por el usuario.
+    c.   La palabra de mayor longitud introducida por el usuario.
+    d.   La media aritmética de las longitudes de la palabras, redondeada al entero menor...*/
+
 //Datos almacenados
 let palabras = [];
 const patron = /^[A-ZÁÉÍÓÚ][a-záéíóúA-ZÁÉÍÓÚ]{4,}$/;
